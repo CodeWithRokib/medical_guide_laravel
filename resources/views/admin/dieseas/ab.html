@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sample page</title>
+    <style type="text/css">
+        / Write your CSS solution here (do not edit the surrounding HTML) /
+        a{
+            font-style: italic;
+        }
+        li a{
+            font-weight: bold;
+            color: #00ff00;
+            font-style: normal;
+            display:inline;
+        }
+        li div div{
+            font-weight: none;
+            color: #00ff00;
+            font-style: normal;
+            display:inline;
+        }
+        li:first-child{
+            color:red;
+        }
+
+    </style>
+</head>
+<body>
+<div class="content">
+    <h1>First header</h1>
+    <div>
+        <a href="/first.html">This is the first italic link</a> with the normal text following it.
+    </div>
+    <h1>Second header</h1>
+    <div>
+        <a href="/second.html">This is the second italic link</a> with the normal text following it.
+        <p>Normal text...</p>
+    </div>
+    <h1>Third header</h1>
+    <ul>
+        <li><a href="/lilink.html">Bold green link</a> with red text following it in the same line.</li>
+        <li><a href="/lilink.html">Bold green link</a> with normal text following it in the same line.</li>
+    </ul>
+    <h1>Fourth header</h1>
+    <ul>
+        <li>
+            <div>Red text </div>
+        </li>
+        <li>
+            <div>
+                <div>Normal text</div>
+                <div>with another normal text in a new line.</div>
+            </div>
+        </li>
+    </ul>
+    <p>Copyright text</p>
+</div>
+</body>
+</html>

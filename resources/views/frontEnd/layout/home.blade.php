@@ -1,0 +1,13 @@
+@extends('frontEnd.layout.master')
+@section('title','Home')
+@section('content')
+    @include('frontEnd.include.slider')
+    @include('frontEnd.include.choose')
+    @include('frontEnd.include.service')
+    @include('frontEnd.include.about')
+    @include('frontEnd.include.factor')
+    @include('frontEnd.include.team')
+    @include('frontEnd.include.testimonial')
+    @include('frontEnd.include.emergency')
+    @include('frontEnd.include.blog')
+@endsection

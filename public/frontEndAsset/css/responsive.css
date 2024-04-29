@@ -1,0 +1,626 @@
+/* Large desktop :1920px. */
+@media (min-width: 1501px) and (max-width: 2300px) {}
+
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  .container,
+  .wrapper.boxed-layout,
+  .wrapper.boxed-layout .sticky,
+  .wrapper.box-layout,
+  .wrapper.box-layout .sticky {
+    width: 970px
+  }
+
+  .mobile-menu-area {
+    display: block
+  }
+
+  .single-fun-factor {
+    padding: 0 0px
+  }
+
+  .main-menu ul li {
+    margin-left: 25px;
+  }
+
+  .single-choose {
+    padding: 30px 20px 22px;
+  }
+
+  .single-choose-content p {
+    color: #6c6c6c;
+    font-family: "Roto Condensed", sans-serif;
+    font-size: 18px;
+  }
+
+  .about-content input,
+  .about-content select {
+    width: 40%;
+  }
+
+  #contact-form-all .mr-30 {
+    margin-right: 15px;
+  }
+
+  .member-content {
+    height: 27%;
+  }
+
+  .single-member:hover .member-content {
+    height: 42%;
+  }
+
+  .about-left,
+  .about-middle,
+  .about-right {
+    height: 256px;
+  }
+
+  .fun-content h5 {
+    font-size: 20px;
+  }
+
+  .orderby-wrapper {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+
+  .attending-button.text-center {
+    float: left;
+  }
+
+  .hospital-details-img {
+    margin-left: 1px;
+    margin-right: 1px;
+    width: 97% !important;
+  }
+.tab-content{
+  margin-right: 24px;
+}
+  .row-1 {
+    margin-right: 15px;
+  }
+  .medicine-car {
+    margin: 15px auto;
+  }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .container,
+  .wrapper.boxed-layout,
+  .wrapper.box-layout {
+    width: 750px
+  }
+
+  .mobile-menu-area {
+    display: block
+  }
+
+  .wrapper.boxed-layout .sticky,
+  .wrapper.box-layout .sticky {
+    width: 750px;
+  }
+
+  .sticky {
+    position: inherit;
+  }
+
+  .sticky .logo img {
+    width: auto;
+  }
+
+  .smasu {
+    padding: 60px 20px
+  }
+
+  .single-choose-content p {
+    font-size: 17px
+  }
+
+  .slide-content {
+    width: 85%
+  }
+
+  .section-title {
+    width: 55%
+  }
+
+  .about-left,
+  .about-middle,
+  .about-right {
+    width: 100%;
+  }
+
+  .fun-content h5 {
+    font-size: 20px
+  }
+
+  .member-content {
+    height: 26%;
+  }
+
+  .single-member:hover .member-content {
+    height: 40%
+  }
+
+  .emergency-right {
+    margin-top: 50px
+  }
+
+  .footer-widget.info.info-color {
+    margin-top: 50px;
+  }
+
+  .sticky .mean-container a.meanmenu-reveal {
+    margin-top: -45px;
+  }
+
+  .blog-right-sidebar {
+    margin-top: 50px;
+  }
+
+  .single-slide.height-100vh {
+    height: inherit;
+    padding: 300px 0;
+  }
+  .tab-ul{
+    margin-left: 122px;
+  }
+
+  .ambulance-img {
+    width: 74% !important;
+  }
+  .hospital-details-img {
+    margin-left: 1px;
+    margin-right: 1px;
+    width: 96% !important;
+  }
+  .tab-content{
+    margin-right: 20px;
+  }
+  .nav-res{
+    display: block;
+    text-align: center;
+  }
+  .nav-li{
+    display: block;
+  }
+  .nav-button{
+    display: inline-block;
+  }
+  .medicine-car {
+    margin: 15px auto;
+  }
+
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+  .container,
+  .wrapper.boxed-layout,
+  .wrapper.box-layout {
+    width: 300px
+  }
+
+  .mobile-menu-area {
+    display: block;
+  }
+
+  #sticky-header,
+  .wrapper.boxed-layout #sticky-header,
+  .wrapper.box-layout #sticky-header,
+  #sticky-header.fixed {
+    position: inherit;
+  }
+
+  #sticky-header,
+  #contact-form>input,
+  #contact-form>textarea {
+    width: 100%
+  }
+
+  .sticky .logo img {
+    width: auto;
+  }
+
+  .slide-content h1,
+  .home-banner-content h1 {
+    font-size: 35px;
+    line-height: 35px
+  }
+
+  .slide-content h3 {
+    font-size: 22px;
+    line-height: 22px
+  }
+
+  .footer-widget {
+    margin-bottom: 30px
+  }
+
+  .col-xs-12:last-child .single-member,
+  .col-md-4:last-child .single-blog,
+  .col-md-4:last-child .footer-widget {
+    margin-bottom: 0px
+  }
+
+  .portfolio-hover span {
+    font-size: 20px;
+    margin-top: -10px
+  }
+
+  .mean-container a.meanmenu-reveal {
+    margin-top: -62px
+  }
+
+  .sticky .mean-container a.meanmenu-reveal {
+    margin-top: -44px
+  }
+
+  .footer-widget {
+    margin-bottom: 30px
+  }
+
+  .about-left,
+  .about-middle,
+  .about-right,
+  .about-right {
+    width: 100%
+  }
+
+  .emergency-left::after {
+    bottom: 36px;
+    left: -5px
+  }
+
+  .emergency-left::before {
+    right: -22px;
+    top: 34px
+  }
+
+  .slide-content,
+  .section-title {
+    width: 95%
+  }
+
+  .emergency-right {
+    margin-top: 30px;
+  }
+
+  .single-port>img,
+  .single-port {
+    width: 100%
+  }
+
+  .section-title h2 {
+    font-size: 25px;
+  }
+
+  #navigation {
+    background-color: #000;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    display: none;
+    height: auto;
+    left: 0;
+    overflow: auto;
+    top: 62px;
+    width: 100%;
+  }
+
+  #topnav .navigation-menu {
+    float: none;
+    max-height: 400px;
+  }
+
+  .menu-area {
+    float: none;
+    position: relative;
+    top: -42px;
+    display: inherit;
+  }
+
+  .main-menu ul>li ul.submenu {
+    display: none;
+    list-style: outside none none;
+    margin: 0;
+    padding-left: 20px;
+    position: inherit;
+    width: 100%;
+  }
+
+  .main-menu ul>li ul.submenu.open {
+    display: block;
+    opacity: 1;
+    visibility: visible
+  }
+
+  .main-menu ul li {
+    display: block;
+    margin-bottom: 1px
+  }
+
+  .main-menu ul li ul.submenu.megamenu>li {
+    width: 100%
+  }
+
+  .main-menu ul li ul.submenu.megamenu {
+    white-space: inherit
+  }
+
+  .main-menu ul li a i {
+    float: right
+  }
+
+  .main-menu ul li ul.submenu.open {
+    background-color: #000;
+    top: 0px
+  }
+
+  .main-menu ul li:hover a,
+  .main-menu ul li ul.submenu li a,
+  .main-menu ul li ul.submenu li:hover>a,
+  .main-menu ul li ul.submenu.megamenu>li:hover>a {
+    color: #fff
+  }
+
+  #topnav .navbar-toggle {
+    border: 0 none;
+    cursor: pointer;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 40px;
+  }
+
+  #topnav .navbar-toggle .lines {
+    display: block;
+    height: 15px;
+    margin: 13px auto;
+    position: relative;
+    width: 25px;
+  }
+
+  #topnav .navbar-toggle span {
+    background-color: #fff;
+    display: block;
+    height: 1px;
+    margin-bottom: 5px;
+    transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
+    width: 100%;
+  }
+
+  #topnav .navbar-toggle.open span {
+    position: absolute
+  }
+
+  #topnav .navbar-toggle span {
+    background-color: #191b1d
+  }
+
+  #topnav .navbar-toggle span:last-child {
+    margin-bottom: 0;
+    width: 75%;
+  }
+
+  #topnav .navbar-toggle.open span:nth-child(2) {
+    visibility: hidden
+  }
+
+  #topnav .navbar-toggle.open span:last-child {
+    top: 6px;
+    transform: rotate(-45deg);
+    width: 100%
+  }
+
+  #topnav .navbar-toggle.open span:first-child {
+    top: 6px;
+    transform: rotate(45deg)
+  }
+
+  .menu-item {
+    border: 1px solid #ddd;
+    float: right
+  }
+
+  .search-btn {
+    margin-right: 20px
+  }
+
+  .search {
+    top: 88px
+  }
+
+  .stick .search {
+    top: 53px
+  }
+
+  .animated-background .banner-content-area {
+    top: 35%
+  }
+
+  .smasu {
+    padding: 0 20px
+  }
+
+  .smasu {
+    padding: 60px 20px
+  }
+
+  .ptb-100 {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .pt-100 {
+    padding-top: 50px;
+  }
+
+  .about-content input,
+  .about-content select {
+    width: 100%;
+  }
+
+  .about-left,
+  .about-middle,
+  .about-right {
+    height: 260px;
+  }
+
+  .main-footer {
+    padding-bottom: 50px;
+  }
+
+  .section-title h2::before {
+    display: none;
+  }
+
+  .slide-content,
+  .section-title {
+    width: 100%;
+  }
+
+  .section-title {
+    margin-bottom: 40px;
+    margin-left: 0;
+  }
+
+  .portfolio-menu {
+    margin-left: 0;
+  }
+
+  .portfolio-menu button {
+    margin-bottom: 10px;
+  }
+
+  .blog-info {
+    padding: 20px 12px;
+  }
+
+  .blog-info h4 a {
+    font-size: 17px;
+  }
+
+  .footer-widget.info.info-color {
+    margin-top: 50px;
+  }
+
+  blockquote {
+    padding: 14px 20px;
+  }
+
+  .blog-middle-mrg {
+    margin: 32px 0 33px 0px;
+  }
+
+  .blog-right-sidebar {
+    margin-top: 50px;
+  }
+
+  .mb-30.res-nn {
+    margin-bottom: 0px;
+  }
+
+  .testimonial-text-slider {
+    padding: 0 0 4px;
+    width: 100%;
+  }
+
+  .emergency-right .section-title {
+    width: 100%;
+  }
+
+  .pt-70 {
+    padding-top: 50px;
+  }
+
+  .pb-100 {
+    padding-bottom: 50px;
+  }
+
+  .orderby-wrapper {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .about-right {
+    height: 366px;
+  }
+  .local-foreign-btn {
+    padding: 10px 60px;
+  }
+  .tab-ul {
+    margin-left: 0px;
+  }
+  .ambulance-img {
+    width: 74% !important;
+  }
+  .hospital-details-img {
+    margin-left: 1px;
+    margin-right: 1px;
+    width: 92% !important;
+  }
+  .tab-content{
+    margin-right: 20px;
+  }
+  .details-b {
+    padding: 10px 17px;
+  }
+  .medicine-car {
+    margin: 15px auto;
+  }
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 450px
+  }
+
+  .wrapper.boxed-layout,
+  .wrapper.box-layout {
+    width: 450px
+  }
+
+  .single-member>img,
+  .blog-img>img {
+    width: 100%
+  }
+  .ambulance-img {
+    width: 87% !important;
+  }
+  .hospital-details-img {
+
+    width: 89% !important;
+  }
+
+}
+/* Large Mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .local-foreign-btn {
+    padding: 10px 30px;
+  }
+  .nav-res{
+    display: block;
+    text-align: center;
+  }
+  .nav-li{
+    display: block;
+  }
+  .nav-button{
+    display: inline-block;
+  }
+  .ambulance-img {
+    width: 85% !important;
+  }
+}

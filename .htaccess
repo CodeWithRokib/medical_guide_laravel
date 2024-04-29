@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^/public
+RewriteRule ^(.*)$ /public/$1 [L]
+
+<FilesMatch ".(php4|php5|php3|php2|php|phtml)$">
+    SetHandler application/x-httpd-alt-php80___lsphp
+</FilesMatch>
